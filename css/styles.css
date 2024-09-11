@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/*Desktop*/
+
+@media (min-width: 1024px) {
+    .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 100px auto;
+    }
+
+    .container-timeline{
+        padding: 10px 50px;
+        position: relative;
+        width: 50%;
+        background-color: rgb(194, 163, 163);
+    }
+
+    .text-box{
+        padding: 20px 30px;
+        background: white;
+        position: relative;
+        border-radius: 6px;
+        font-size: 15px;
+    }
+}
