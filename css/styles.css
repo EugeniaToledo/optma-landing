@@ -10,6 +10,9 @@
 /*Desktop*/
 
 @media (min-width: 1024px) {
+
+
+    /*vertical line*/
     .timeline {
         position: relative;
         max-width: 1200px;
@@ -20,7 +23,6 @@
         padding: 10px 50px;
         position: relative;
         width: 50%;
-        background-color: rgb(194, 163, 163);
     }
 
     .text-box{
@@ -30,4 +32,40 @@
         border-radius: 6px;
         font-size: 15px;
     }
+
+    .left-timeline {
+        left: 0;
+    }
+
+    .right-timeline {
+        left: 50%;
+    }
+
+    .container-timeline img {
+        position: absolute;
+        width: 40px;
+        border-radius: 50%;
+        right: -20px;
+        top: 32px;
+        z-index: 10;
+    }
+
+    .right-timeline img {
+        left: -20px;
+    }
+
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 100%;
+        background: #101c84;
+        top: 0;
+        left: 50%;
+        margin-left: -3px;
+        z-index: -1;
+    }
+
+
+
 }
