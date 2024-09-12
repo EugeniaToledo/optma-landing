@@ -67,6 +67,47 @@
         margin: 12px;
     }
 
+    .second-presentation {
+        padding: 80px;
+        text-align: center;
+    }
+
+    .first-cards {
+        padding: 40px;
+    }
+
+    .first-cards ul {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-cards li {
+        width: 25vw;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .third-presentation {
+        text-align: center;
+    }
+
+    .goals{
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .banks {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .banks ul {
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+    }
 
     /*vertical line*/
     .timeline {
