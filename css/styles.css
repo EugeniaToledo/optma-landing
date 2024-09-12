@@ -12,6 +12,62 @@
 @media (min-width: 1024px) {
 
 
+    .nav{
+        padding: 20px;
+
+    }
+
+    .navbar-nav li{
+        margin: 5px;
+    }
+
+    .nav-link {
+        font-size: 30px;
+    }
+
+    .presentation{
+        padding-top: 300px;
+        text-align: center;
+    }
+
+    .first-buttons {
+        padding-top: 80px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-buttons ul {
+        padding-left: 0;
+    }
+
+    .first-buttons div {
+        display: flex;
+        background: #6c6e7a;
+        align-items: center;
+        padding: 10px 70px;
+        border-radius: 30px;
+    }
+
+    .first-buttons-request {
+        color: black;
+        background: white;
+        border: black 1px solid;
+        padding: 20px 60px;
+        border-radius: 30px;
+        margin: 12px;
+    }
+
+    .first-buttons-contact {
+        color: white;
+        background: blue;
+        border: blue 1px solid;
+        padding: 20px 60px;
+        border-radius: 30px;
+        margin: 12px;
+    }
+
+
     /*vertical line*/
     .timeline {
         position: relative;
