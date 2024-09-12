@@ -93,21 +93,6 @@
         text-align: center;
     }
 
-    .goals{
-        padding-top: 60px;
-        text-align: center;
-    }
-
-    .banks {
-        padding-top: 80px;
-        text-align: center;
-    }
-
-    .banks ul {
-        display: flex;
-        justify-content: center;
-        padding-top: 15px;
-    }
 
     /*vertical line*/
     .timeline {
@@ -163,6 +148,55 @@
         z-index: -1;
     }
 
+    /*vertical line*/
 
+    .goals{
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .banks {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .banks ul {
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    .requirements {
+        padding-top: 60px;
+    }
+
+    .requirements h3{
+        text-align: center;
+    }
+
+    .requirements-firstcards {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .requirements-firstcards figure {
+        width: 40vw;
+        margin: 10px;
+        border: 1px solid blue;
+    }
+
+    .requirements-secondcards {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .requirements-secondcards figure {
+        width: 40vw;
+        margin: 10px;
+        border: 1px solid blue;
+    }
 
 }
+
