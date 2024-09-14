@@ -440,21 +440,28 @@ footer {
     }
 
     .form-section-card {
-        width: 25vw;
-        border: 1px solid black;
+        width: 28vw;
         margin: 10px;
-        height: 20vh;
+        height: 50vh;
         display: flex;
         align-items: center;
         justify-content: center;
+        border-radius: 35px;
+        color: #ced4da;
     }
 
     .form-section-online {
-        width: 25vw;
+        width: 28vw;
         border: 1px solid black;
         margin: 10px;
-        height: 20vh;
+        height: 50vh;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 35px;
+        background-color: #000e28;
+        color: #ced4da;
     }
 
     .phrases {
