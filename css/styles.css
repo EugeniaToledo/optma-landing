@@ -354,13 +354,14 @@ footer {
         margin: 10px;
         border: 1px solid #000e28;
         background-color: #000e28;
+        padding: 15px;
         height: 45vh;
         border-radius: 40px;
     }
 
     .requirements-firstcards figcaption {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         background-color: #3e82ef;
         padding: 25px;
         border-radius: 100%;
@@ -374,6 +375,17 @@ footer {
         width: 60px;
     }
 
+    .requirements-firstcards h4 {
+        padding-top: 15px;
+        font-size: 1.8rem;
+        color: #ced4da;
+        font-weight: 600;
+    }
+
+    .requirements-firstcards p{
+        color: #ced4da;
+    }
+
     .requirements-secondcards {
         display: flex;
         justify-content: center;
@@ -385,13 +397,14 @@ footer {
         margin: 10px;
         border: 1px solid #000e28;
         background-color: #000e28;
+        padding: 15px;
         height: 45vh;
         border-radius: 40px;
     }
 
     .requirements-secondcards figcaption {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         background-color: #3e82ef;
         padding: 25px;
         border-radius: 100%;
@@ -403,6 +416,17 @@ footer {
     .requirements-secondcards img {
         height: 60px;
         width: 60px;
+    }
+
+    .requirements-secondcards h4 {
+        padding-top: 15px;
+        font-size: 1.8rem;
+        color: #ced4da;
+        font-weight: 600;
+    }
+
+    .requirements-secondcards p{
+        color: #ced4da;
     }
 
     .form-section {
