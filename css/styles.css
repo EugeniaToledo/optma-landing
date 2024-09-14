@@ -100,6 +100,22 @@ nav {
 
 }
 
+.phrases-image article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #849ec7;
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+}
+
+.phrases-image img {
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+}
+
 .accordion-button {
     background-color: #f8f9fa; /* Fondo blanco */
     color: #000; /* Texto negro */
@@ -519,13 +535,24 @@ footer {
 
     .phrases-section {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .phrases-sentences {
         margin-left: 30px;
     }
 
+    .phrases-sentences h5{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .phrases-sentences p {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    
     .faq {
         display: flex;
         justify-content: center;
