@@ -52,6 +52,20 @@ nav {
     font-weight: 600;
 }
 
+.banks h4 {
+    color: #77797c;
+    font-weight: 600;
+}
+
+.supervielle-bank img {
+    width: 220px;
+    height: 110px;
+}
+
+.requirements h3 {
+    font-weight: 600;
+}
+
 .goals{
     padding: 100px;
     text-align: center;
@@ -277,8 +291,8 @@ footer {
 
     .container-timeline img {
         position: absolute;
-        width: 51px;
-        height: 50px;
+        width: 40px;
+        border-radius: 50%;
         right: -20px;
         top: 32px;
         z-index: 10;
@@ -314,8 +328,10 @@ footer {
 
     .banks ul {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         padding-top: 15px;
+        align-items: flex-end;
+        padding-top: 20px;
     }
 
     .requirements {
@@ -324,6 +340,7 @@ footer {
 
     .requirements h3{
         text-align: center;
+        font-size: 2rem;
     }
 
     .requirements-firstcards {
@@ -335,7 +352,26 @@ footer {
     .requirements-firstcards figure {
         width: 40vw;
         margin: 10px;
-        border: 1px solid blue;
+        border: 1px solid #000e28;
+        background-color: #000e28;
+        height: 45vh;
+        border-radius: 40px;
+    }
+
+    .requirements-firstcards figcaption {
+        display: flex;
+        justify-content: flex-end;
+        background-color: #3e82ef;
+        padding: 25px;
+        border-radius: 100%;
+        align-items: center;
+        height: 100px;
+        width: 100px;
+    }
+
+    .requirements-firstcards img {
+        height: 60px;
+        width: 60px;
     }
 
     .requirements-secondcards {
@@ -347,7 +383,26 @@ footer {
     .requirements-secondcards figure {
         width: 40vw;
         margin: 10px;
-        border: 1px solid blue;
+        border: 1px solid #000e28;
+        background-color: #000e28;
+        height: 45vh;
+        border-radius: 40px;
+    }
+
+    .requirements-secondcards figcaption {
+        display: flex;
+        justify-content: flex-end;
+        background-color: #3e82ef;
+        padding: 25px;
+        border-radius: 100%;
+        align-items: center;
+        height: 100px;
+        width: 100px;
+    }
+
+    .requirements-secondcards img {
+        height: 60px;
+        width: 60px;
     }
 
     .form-section {
