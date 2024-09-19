@@ -71,6 +71,10 @@ nav {
     font-weight: 600;
 }
 
+.banks {
+    background-color: #edf1f7;
+}
+
 .banks h4 {
     color: #77797c;
     font-weight: 600;
@@ -113,6 +117,10 @@ nav {
     background-position: center; 
     background-repeat: no-repeat; 
 
+}
+
+.phrases {
+    background-color: #edf1f7;
 }
 
 .phrases-image article {
@@ -319,7 +327,7 @@ footer {
 
 
     /*vertical line*/
-    .timeline {
+    /* .timeline {
         position: relative;
         max-width: 1200px;
         margin: 100px auto;
@@ -370,9 +378,85 @@ footer {
         left: 50%;
         margin-left: -3px;
         z-index: -1;
-    }
+    } */
 
     /*vertical line*/
+
+    /* new styles VERTICAL LINE */
+
+    .wrapper {
+        max-width: 1080px;
+        margin: 50px auto;
+        padding: 0 20px;
+        position: relative;
+    }
+
+    .wrapper .center-line {
+        position: absolute;
+        height: 88%;
+        width: 2px;
+        background: #000;
+        left: 50%;
+        top: 20px;
+        transform: translateX(-50%);
+    }
+
+    .wrapper .row {
+        display: flex;
+    }
+
+    .wrapper .row-1 {
+        justify-content: flex-start;
+    }
+
+    .wrapper .row-2 {
+        justify-content: flex-end;
+    }
+
+    .wrapper .row section {
+        background:#edf1f7;
+        border-radius: 5px;
+        width: calc(50% - 40px);
+        padding: 20px;
+        position: relative;
+        box-shadow: 16px 18px 41px -5px rgba(0,0,0,0.20);
+    }
+
+    .row section .icon-line {
+        position: absolute;
+        background: #000e28;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        top: 13px; 
+    }
+
+    .row-1 section .icon-line{
+        right: -60px;
+    }
+
+    .row-2 section .icon-line{
+        left: -60px;
+    }
+
+
+    .row section .details {
+       color: #000;
+    }
+
+    .row section .details span{
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .row section .details p{
+        padding-top: 10px;
+    }
+
+
+    /* new styles VERTICAL LINE */
 
     .goals{
         padding-top: 60px;
@@ -389,8 +473,8 @@ footer {
     }
 
     .banks {
-        padding-top: 130px;
-        padding-bottom: 130px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         text-align: center;
     }
 
@@ -403,7 +487,7 @@ footer {
     }
 
     .requirements {
-        padding-top: 120px;
+        padding-top: 100px;
     }
 
     .requirements h3{
@@ -441,6 +525,7 @@ footer {
         background: #000e28;
         border-radius: 25px;
         border: 1px  #fff;
+        
     }
 
     .requirements-firstcards .card .card-box .requirements-img{
@@ -581,6 +666,7 @@ footer {
 
     .form-section {
         padding-top: 110px;
+        padding-bottom: 100px;
     }
 
     .form-section article {
@@ -616,6 +702,7 @@ footer {
         border-radius: 35px;
         background-color: #000e28;
         color: #ced4da;
+        box-shadow: 16px 18px 41px -5px rgba(0,0,0,0.20);
     }
 
     .form-section-online h5 {
@@ -631,10 +718,11 @@ footer {
         border: 1px solid #ced4da;
         padding: 3px 38px;
         border-radius: 10px;
+        color: #ced4da;
     }
 
     .form-section-online a{
-        padding: 30px 0px;
+        padding: 50px 0px 30px 0px;
     }
 
     .form-section-online button{
@@ -647,8 +735,8 @@ footer {
     }
 
     .phrases {
-        padding-top: 150px;
-        padding-bottom: 40px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .phrases-section {
