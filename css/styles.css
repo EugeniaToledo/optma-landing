@@ -72,12 +72,16 @@ nav {
 }
 
 .first-buttons-contact {
-    color: #edf1f7;
     background: #000e28;
     border: #000e28 1px solid;
     font-size: 1.8rem;
     font-weight: 500;
 } 
+
+.first-buttons-contact a{
+    text-decoration: none;
+    color: #edf1f7;
+}
 
 .third-presentation {
     display: flex;
@@ -236,6 +240,10 @@ footer {
         margin: 5px;
     }
 
+    .nav-item a:hover{
+        color: #444141;
+    }
+
     .nav-link {
         font-size: 30px;
     }
@@ -285,10 +293,18 @@ footer {
         font-weight: 500;
     }
 
+    .first-buttons-request:hover{
+        background: #e7e0e0;
+    }
+
     .first-buttons-contact {
         padding: 10px 70px;
         border-radius: 30px;
         margin: 12px;
+    }
+
+    .first-buttons-contact:hover {
+        background: #193364;
     }
 
     .second-presentation {
@@ -823,6 +839,10 @@ footer {
         border: 1px solid #000e28;
         font-size: 1.5rem;
         font-weight: 600;
+    }
+
+    .last-phrases button:hover{
+        background: #193364;
     }
 
 
