@@ -26,6 +26,7 @@
 .btn-wpp:hover {
     color: #0df053;
     background: #fff;
+    transition: 1s;
 }
 
 nav {
@@ -295,6 +296,7 @@ footer {
 
     .first-buttons-request:hover{
         background: #e7e0e0;
+        transition: 1s;
     }
 
     .first-buttons-contact {
@@ -305,6 +307,7 @@ footer {
 
     .first-buttons-contact:hover {
         background: #193364;
+        transition: 1s;
     }
 
     .second-presentation {
@@ -503,7 +506,7 @@ footer {
 
     .requirements-firstcards .card {
         position: relative;
-        width: 300px;
+        width: 350px;
         height: 400px;
         background: #fff;
         border-radius: 20px;
@@ -524,8 +527,8 @@ footer {
 
     .requirements-firstcards .card .card-box .requirements-img{
         position: absolute;
-        width: 140px;
-        height: 140px;
+        width: 100px;
+        height: 100px;
         background: #fff;
         border-bottom-right-radius: 50%;
         border: 1px  #fff;
@@ -561,11 +564,10 @@ footer {
         position: absolute;
         inset: 10px;
         background: #3e82ef;
-        padding: 20px;
         border-radius: 50%;
         border: 1px  #fff;
         color: #fff;
-        font-size: 2.8rem;
+        font-size: 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -587,11 +589,12 @@ footer {
         align-items: center;
         flex-wrap: wrap;
         gap: 80px;
+        padding-top: 25px;
     }
 
     .requirements-secondcards .card {
         position: relative;
-        width: 300px;
+        width: 350px;
         height: 400px;
         background: #fff;
         border-radius: 20px;
@@ -611,8 +614,8 @@ footer {
 
     .requirements-secondcards .card .card-box .requirements-img{
         position: absolute;
-        width: 140px;
-        height: 140px;
+        width: 100px;
+        height: 100px;
         background: #fff;
         border-bottom-right-radius: 50%;
         border: 1px  #fff;
@@ -648,11 +651,10 @@ footer {
         position: absolute;
         inset: 10px;
         background: #3e82ef;
-        padding: 20px;
         border-radius: 50%;
         border: 1px  #fff;
         color: #fff;
-        font-size: 2.8rem;
+        font-size: 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -810,6 +812,7 @@ footer {
 
     .last-phrases button:hover{
         background: #193364;
+        transition: 1s;
     }
 
 
