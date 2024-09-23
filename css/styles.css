@@ -192,24 +192,6 @@ nav {
     font-weight: 600;
 }
 
-.banks {
-    background-color: #edf1f7;
-}
-
-.banks h4 {
-    color: #77797c;
-    font-weight: 600;
-}
-
-.supervielle-bank img {
-    width: 260px;
-    height: 110px;
-}
-
-.requirements h3 {
-    font-weight: 600;
-}
-
 .goals{
     padding: 20px;
     text-align: center;
@@ -226,6 +208,53 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.goals-bckg h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-top: 60px;
+}
+
+.goals-bckg p{
+    padding-top: 20px;
+    font-size: 0.671rem;
+}
+
+.banks {
+    background-color: #edf1f7;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.banks h4 {
+    color: #77797c;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.banks ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+.ciudad-bank img {
+    width: 200px;
+    height: 80px;
+}
+
+.supervielle-bank img {
+    width: 200px;
+    height: 110px;
+    padding-top: 20px;
+}
+
+.requirements h3 {
+    font-weight: 600;
 }
 
 .form-section-card {
@@ -602,6 +631,7 @@ footer {
     }
 
     .goals-bckg p{
+        padding-top: 0;
         font-size: 1.5rem;
     }
 
@@ -611,12 +641,27 @@ footer {
         text-align: center;
     }
 
+    .banks h4{
+        font-size: 1.345rem;
+    }
+
     .banks ul {
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
-        padding-top: 15px;
         align-items: flex-end;
         padding-top: 20px;
+    }
+
+    .ciudad-bank img {
+        width: 300px;
+        height: 59px;
+    }
+
+    .supervielle-bank img {
+        width: 260px;
+        height: 110px;
+        padding-top: 0;
     }
 
     .requirements {
