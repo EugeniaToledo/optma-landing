@@ -33,6 +33,11 @@ nav {
     background-color:#000e28;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.navbar-brand img {
+    width: 100px;
+    height: 40px;
+}
 .navbar-nav a{
     color: #edf1f7;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -43,7 +48,7 @@ nav {
 .cover {
     background-image: url("../images/cover.jpg");
     width: 100%;  
-    height: 640px; 
+    height: 350px; 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -51,11 +56,36 @@ nav {
 
 .presentation {
     color: #edf1f7;
+    padding-top: 150px;
+    text-align: center;
 }
 
 .presentation h1 {
-    font-size: 2.2rem;
+    font-size: 1.4rem;
     font-weight: revert;
+}
+
+.presentation p{
+    padding-top: 10px;
+    font-size: 0.7rem;
+}
+
+.first-buttons {
+    padding-top: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.first-buttons ul{
+    padding-left: 0;
+}
+
+.first-buttons div {
+    background: #fff;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .first-buttons .first-buttons-request a{
@@ -237,6 +267,11 @@ footer {
 
     }
 
+    .navbar-brand img {
+        width: 200px;
+        height: 65px;
+    }
+
     .navbar-nav li{
         margin: 5px;
     }
@@ -247,6 +282,15 @@ footer {
 
     .nav-link {
         font-size: 30px;
+    }
+
+    .cover {
+        background-image: url("../images/cover.jpg");
+        width: 100%;  
+        height: 640px; 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
     }
 
     .presentation{
@@ -260,6 +304,7 @@ footer {
     }
 
     .presentation p{
+        padding-top: 0;
         font-size: 1.5rem;
     }
 
@@ -334,8 +379,8 @@ footer {
     }
 
     .first-cards img {
-        width: 70px;
-        height: 70px;
+        width: 72px;
+        height: 73px;
     }
 
     .first-cards h3{
@@ -577,9 +622,14 @@ footer {
 
     .requirements-firstcards .card .card-box .requirements-content{
         position: absolute;
-        top: 160px;
+        top: 70px;
         padding: 20px;
         color: #ced4da;
+    }
+
+    .requirements-firstcards .card .card-box .requirements-content h4 {
+        margin-bottom: 2.5rem;
+        font-weight: 600;
     }
 
     /* second cards */
@@ -666,9 +716,14 @@ footer {
 
     .requirements-secondcards .card .card-box .requirements-content{
         position: absolute;
-        top: 160px;
+        top: 70px;
         padding: 20px;
         color: #ced4da;
+    }
+
+    .requirements-secondcards .card .card-box .requirements-content h4 {
+        margin-bottom: 2.5rem;
+        font-weight: 600;
     }
 
     /* end section cards */
@@ -801,6 +856,10 @@ footer {
 
     .last-phrases p{
         font-size: 1.8rem;
+    }
+
+    .last-phrases a {
+        padding-top: 15px;
     }
 
     .last-phrases button {
