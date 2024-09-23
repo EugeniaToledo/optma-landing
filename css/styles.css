@@ -466,6 +466,20 @@ nav {
 
 /* end section cards */
 
+.form-section {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.form-section article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 .form-section-card {
     background-image: url("../images/yellow-house.jpg");
     width: 100%;  
@@ -475,16 +489,85 @@ nav {
     background-repeat: no-repeat; 
 }
 
+.form-section-card {
+    width: 75vw;
+    margin: 10px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    color: #ced4da;
+}
+
+.form-section-card h5 {
+    font-size: 1.8rem;
+}
+
+.form-section-online {
+    width: 75vw;
+    border: 1px solid black;
+    margin: 10px;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 35px;
+    background-color: #000e28;
+    color: #ced4da;
+    box-shadow: 16px 18px 41px -5px rgba(0,0,0,0.20);
+}
+
+.form-section-online h5 {
+    padding-top: 25px;
+    font-size: 1.4rem;
+}
+
+.form-section-online article {
+    padding: 10px 0px;
+}
+
+.form-section-online input{
+    background-color: #000e28;
+    border: 1px solid #ced4da;
+    padding: 3px 18px;
+    border-radius: 10px;
+    color: #ced4da;
+}
+
+.form-section-online a{
+    padding: 50px 0px 30px 0px;
+}
+
+.form-section-online button{
+    background-color: #ced4da;
+    border: 1px solid #ced4da;
+    padding: 3px 60px;
+    font-size: 1rem;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
 .phrases {
     background-color: #edf1f7;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.phrases-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .phrases-image article {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 650px;
-    height: 650px;
+    width: 350px;
+    height: 350px;
     background-image: url("../images/tab.png");
     background-size: cover; 
     background-position: center; 
@@ -492,11 +575,46 @@ nav {
 }
 
 .phrases-image img {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
-    margin-left: 115px;
+    margin-left: 65px;
 }
+
+.phrases-sentences {
+    margin-left: 10px;
+}
+
+.phrases-sentences h5{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.phrases-sentences p {
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px 15px;
+}
+
+.faq-title {
+    margin-right: 30px;
+}
+
+.faq-title h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.faq-list {
+    width: 92vw;
+}
+
 
 .accordion-button {
     background-color: #f8f9fa; 
@@ -504,6 +622,7 @@ nav {
     border: 1px solid #dee2e6; 
     box-shadow: none; 
     font-weight: 600;
+    font-size: 0.8rem;
   }
 
   .accordion-button:not(.collapsed) {
@@ -515,6 +634,10 @@ nav {
   .accordion-button:focus {
     box-shadow: none; 
     outline: none; 
+  }
+
+  .accordion-body {
+    font-size: 0.6rem;
   }
 
   .accordion-body ul{
@@ -1092,6 +1215,7 @@ footer {
 
     .form-section article {
         display: flex;
+        flex-direction: row;
         text-align: center;
         justify-content: center;
     }
@@ -1127,6 +1251,7 @@ footer {
     }
 
     .form-section-online h5 {
+        padding-top: 0;
         font-size: 1.4rem;
     }
 
@@ -1161,9 +1286,29 @@ footer {
     }
 
     .phrases-section {
+        flex-direction: row;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+    }
+
+    .phrases-image article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 650px;
+        height: 650px;
+        background-image: url("../images/tab.png");
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+    }
+    
+    .phrases-image img {
+        width: 350px;
+        height: 350px;
+        border-radius: 100%;
+        margin-left: 115px;
     }
 
     .phrases-sentences {
@@ -1182,6 +1327,7 @@ footer {
     
     .faq {
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
         padding: 130px 40px;
     }
@@ -1197,6 +1343,14 @@ footer {
 
     .faq-list {
         width: 55vw;
+    }
+
+    .accordion-button {
+        font-size: 1rem;
+    }
+
+    .accordion-body {
+        font-size: 1rem;
     }
 
     .last-phrases {
