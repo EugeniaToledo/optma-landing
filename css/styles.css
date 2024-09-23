@@ -93,25 +93,77 @@ nav {
     color: #000;
 }
 
-.second-presentation h2{
-    padding-top: 90px;
-    font-weight: 600;
+.first-buttons-request {
+    border: black 1px solid;
+    padding: 8px 50px;
+    border-radius: 40px;
+    margin: 8px;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
-.second-presentation p{
-    font-size: 1.1rem;
+.first-buttons-request:hover{
+    background: #e7e0e0;
 }
 
 .first-buttons-contact {
     background: #000e28;
     border: #000e28 1px solid;
-    font-size: 1.8rem;
+    padding: 8px 50px;
+    border-radius: 40px;
+    font-size: 1rem;
     font-weight: 500;
+    margin: 8px;
 } 
 
 .first-buttons-contact a{
     text-decoration: none;
     color: #edf1f7;
+}
+
+.second-presentation {
+    padding: 35px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.second-presentation h2{
+    font-size: 1rem;
+    padding-top: 80px;
+    font-weight: 600;
+}
+
+.second-presentation p{
+    font-size: 0.6rem;
+}
+
+.first-cards {
+    padding: 0px 29px;
+}
+
+.first-cards ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.first-cards li {
+    /* width: 25vw; */
+    text-align: center;
+}
+
+.first-cards img {
+    width: 52px;
+    height: 53px;
+}
+
+.first-cards h3{
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.first-cards p{
+    font-size: 0.8rem;
 }
 
 .third-presentation {
@@ -120,6 +172,19 @@ nav {
     align-items: center;
     text-align: center;
     padding-top: 25px;
+}
+
+.third-presentation div {
+    background-color: #000e28;
+    border-radius: 100%;
+    padding: 15px;
+    height: 70px;
+    width: 80px;
+}
+
+.third-presentation img {
+    width: 40px;
+    height: 40px;
 }
 
 .third-presentation h3{
@@ -146,7 +211,7 @@ nav {
 }
 
 .goals{
-    padding: 100px;
+    padding: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -154,7 +219,7 @@ nav {
 
 .goals-bckg{
     background-image: url("../images/casa.jpg");
-    height: 600px; 
+    height: 350px; 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -348,6 +413,7 @@ footer {
         padding: 10px 70px;
         border-radius: 30px;
         margin: 12px;
+        font-size: 1.8rem;
     }
 
     .first-buttons-contact:hover {
@@ -361,6 +427,14 @@ footer {
         padding-bottom: 45px;
     }
 
+    .second-presentation h2 {
+        font-size: 2rem;
+    }
+
+    .second-presentation p{
+        font-size: 1.1rem;
+    }
+
     .first-cards {
         padding: 30px 40px;
     }
@@ -368,6 +442,7 @@ footer {
     .first-cards ul {
         padding-left: 0;
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
     }
@@ -376,6 +451,7 @@ footer {
         width: 25vw;
         margin: 15px;
         padding: 15px;
+        text-align: start;
     }
 
     .first-cards img {
@@ -391,6 +467,7 @@ footer {
     .first-cards p {
         padding-top: 5px;
         font-weight: 400;
+        font-size: 1rem;
     }
 
     .third-presentation {
@@ -501,7 +578,21 @@ footer {
 
     .goals{
         padding-top: 60px;
-        
+        padding: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .goals-bckg{
+        background-image: url("../images/casa.jpg");
+        height: 600px; 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .goals-bckg h3{
