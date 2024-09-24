@@ -620,11 +620,16 @@ nav {
     font-size: 1.4rem;
 }
 
-.form-section-online article {
+.form-section-online form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section-online form article {
     padding: 10px 0px;
 }
 
-.form-section-online input{
+.form-section-online form input{
     background-color: #000e28;
     border: 1px solid #ced4da;
     padding: 3px 10px;
@@ -632,7 +637,7 @@ nav {
     color: #ced4da;
 }
 
-.form-section-online a{
+.form-section-online form a{
     padding: 50px 0px 30px 0px;
 }
 
@@ -1425,11 +1430,11 @@ footer {
         font-size: 1.4rem;
     }
 
-    .form-section-online article {
+    .form-section-online form article {
         padding: 10px 0px;
     }
 
-    .form-section-online input{
+    .form-section-online form input{
         background-color: #000e28;
         border: 1px solid #ced4da;
         padding: 3px 38px;
@@ -1437,11 +1442,11 @@ footer {
         color: #ced4da;
     }
 
-    .form-section-online a{
+    .form-section-online form a{
         padding: 50px 0px 30px 0px;
     }
 
-    .form-section-online button{
+    .form-section-online form button{
         background-color: #ced4da;
         border: 1px solid #ced4da;
         padding: 3px 60px;
