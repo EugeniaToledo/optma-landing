@@ -1504,7 +1504,8 @@ footer {
 
     .faq-title {
         margin-right: 30px;
-        display: none;
+        display: flex;
+        flex-direction: column;
     }
 
     .faq-title h5 {
