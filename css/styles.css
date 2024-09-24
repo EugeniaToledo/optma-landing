@@ -586,7 +586,7 @@ nav {
 }
 
 .form-section-card {
-    width: 75vw;
+    width: 300px;
     margin: 10px;
     height: 50vh;
     display: flex;
@@ -601,7 +601,7 @@ nav {
 }
 
 .form-section-online {
-    width: 75vw;
+    width: 300px;
     border: 1px solid black;
     margin: 10px;
     height: 50vh;
@@ -695,20 +695,22 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 40px 15px;
+    padding: 40px 25px;
 }
 
 .faq-title {
     margin-right: 30px;
+    display: flex;
 }
 
 .faq-title h5 {
     font-weight: 600;
     font-size: 1.2rem;
+    padding: 3px;
 }
 
 .faq-list {
-    width: 92vw;
+    width: 87vw;
 }
 
 
@@ -744,7 +746,7 @@ nav {
     text-align: center;
     background-image: url("../images/last-cover.jpg");
     width: 100%;  
-    height: 500px; 
+    height: 450px; 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -789,7 +791,7 @@ nav {
 
 footer {
     background-color: #000e28;
-    height: 80px;
+    height: 100px;
 }
 
 /*Tablet*/
@@ -1502,11 +1504,13 @@ footer {
 
     .faq-title {
         margin-right: 30px;
+        display: none;
     }
 
     .faq-title h5 {
         font-weight: 600;
         font-size: 2.1rem;
+        padding: 0;
     }
 
     .faq-list {
