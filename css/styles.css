@@ -332,7 +332,7 @@ nav {
 
 .banks ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: flex-end;
     padding-top: 20px;
@@ -368,7 +368,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 15px;
 }
 
@@ -467,7 +467,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap:  nowrap;
     gap: 15px;
     padding-top: 25px;
 }
@@ -802,26 +802,356 @@ footer {
 /*Tablet*/
 
 @media (min-width: 768px){
-    /* .wrapper .row {
-        margin: 30px 0 30px 60px;
+    .btn-wpp{
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        bottom: 25px;
+        right: 40px;
+        background: #0df053;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 40px;
+        box-shadow: 0px 1px 10px rgb(0,0,0,0.3);
+        z-index: 100;
+    }
+    .navbar-brand img {
+        width: 120px;
+        height: 47px;
+    }
+
+    .cover {
+        width: 100%;  
+        height: 380px; 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+    }
+
+    .presentation h1 {
+        font-size: 2.2rem;
+        font-weight: revert;
+    }
+
+    .presentation p{
+        padding-top: 0;
+        font-size: 1rem;
+    }
+
+    .first-buttons div {
+        display: flex;
+    }
+
+    .second-presentation h2 {
+        padding-top: 50px;
+        font-size: 1.5rem;
+    }
+
+    .second-presentation p{
+        font-size: 0.8rem;
+    }
+
+    .first-cards ul {
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .first-cards li {
+        width: 50vw;
+        margin: 15px;
+        text-align: center;
+    }
+
+    .first-cards h3{
+        font-size: 1.3rem;
+    }
+
+    .first-cards p{
+        font-size: 0.8rem;
+    }
+
+    .third-presentation div{
+        height: 80px;
+        width: 85px;
+    }
+
+    .third-presentation img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .third-presentation h3{
+        font-size: 1.3rem;
+    }
+
+    .wrapper {
+        max-width: 1080px;
+        margin: 50px auto;
+        padding: 0 40px;
+        position: relative;
     }
 
     .wrapper .center-line {
-        display: block;
-        left: 40px;
+        position: absolute;
+        height: 87%;
+        width: 2px;
+        background: #000;
+        left: 50%;
+        top: 20px;
+        transform: translateX(-50%);
+    }
+
+    .wrapper .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .wrapper .row-1 {
+        justify-content: flex-start;
+    }
+
+    .wrapper .row-2 {
+        justify-content: flex-end;
     }
 
     .wrapper .row section {
-        width: 100%;
+        background:#edf1f7;
+        border-radius: 5px;
+        width: calc(50% - 40px);
+        padding: 20px;
+        position: relative;
+        box-shadow: 16px 18px 41px -5px rgba(0,0,0,0.20);
+        margin-bottom: 0;
     }
 
-    .row-1 section::before {
-        left: -7px;
+
+    .wrapper .row section:hover{
+        background:#000e28;
+        transform: scale(1.01);
+        z-index: 2;
+        transition: 1s;
     }
 
-    .row-1 section .icon-line {
-        left: -60px
-    } */
+    .wrapper .row section .details:hover{
+      color: #fff;
+      transition: 1s;
+    }
+
+    .row section .icon-line {
+        color: #3e82ef;
+        position: absolute;
+        background: #000e28;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        top: 13px;
+        font-size: 1.1rem;
+    }
+
+    .row-1 section .icon-line{
+        left: auto;
+        right: -80px;
+    }
+
+    .row-2 section .icon-line{
+        left: -40px;
+    }
+
+
+    .row section .details {
+       color: #000;
+    }
+
+    .row section .details span{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .row section .details p{
+        padding-top: 10px;
+        font-size: 0.6rem;
+    }
+
+    .goals{
+        padding-top: 20px;
+        padding: 70px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .goals-bckg{
+        background-image: url("../images/casa.jpg");
+        height: 500px; 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .goals-bckg h3{
+        font-size: 2.8rem;
+        font-weight: 700;
+        padding-top: 80px;
+    }
+
+    .goals-bckg p{
+        padding-top: 5px;
+        font-size: 1rem;
+    }
+
+    .banks {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .banks h4{
+        font-size: 1.3rem;
+    }
+
+    .banks ul {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        padding-top: 20px;
+    }
+
+    .ciudad-bank img {
+        width: 200px;
+        height: 49px;
+    }
+
+    .supervielle-bank img {
+        width: 170px;
+        height: 90px;
+        padding-top: 0;
+    }
+
+    .requirements h3 {
+        font-size: 1.5rem;
+    }
+
+    .requirements-firstcards .card {
+        width: 240px;
+        height: 240px;
+    }
+
+    .requirements-firstcards .card .card-box .requirements-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .requirements-firstcards .card .card-box .requirements-img i {
+        font-size: 1.5rem;
+    }
+
+    .requirements-firstcards .card .card-box .requirements-content {
+        top: 45px;
+    }
+
+    .requirements-firstcards .card .card-box .requirements-content h4 {
+        margin-bottom: 3.2rem;
+    }
+
+    .requirements-secondcards .card {
+        position: relative;
+        width: 240px;
+        height: 240px;
+    }
+
+    .requirements-secondcards .card .card-box .requirements-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .requirements-secondcards .card .card-box .requirements-img i {
+        font-size: 1.5rem;
+    }
+
+    .requirements-secondcards .card .card-box .requirements-content {
+        top: 45px;
+    }
+
+    .requirements-secondcards .card .card-box .requirements-content h4 {
+        margin-bottom: 3.2rem;
+    }
+
+    .form-section article {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .form-section-card,
+    .form-section-online {
+        height: 40vh;
+    }
+
+    .phrases-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .phrases-image article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 370px;
+        height: 370px;
+        background-image: url(../images/tab.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+    
+    .phrases-image img {
+        width: 215px;
+        height: 215px;
+    }
+
+    .phrases-sentences h5 {
+        font-size: 1.5rem;
+    }
+
+    .phrases-sentences p{
+        font-size: 1rem;
+    }
+
+    .faq-title h5{
+        font-size: 1.5rem;
+    }
+
+    .faq-list {
+        width: 90vw;
+    }
+
+    .accordion-button {
+        font-size: 1rem;
+    }
+
+    .accordion-body {
+        font-size: 0.8rem;
+    }
+
+    .last-phrases h5 {
+        font-size: 1.5rem;
+    }
+
+    .last-phrases p {
+        font-size: 1rem;
+    }
 
 }
 
@@ -1155,10 +1485,10 @@ footer {
 
     .banks ul {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: space-evenly;
         align-items: flex-end;
-        padding-top: 20px;
+        padding-top: 30px;
     }
 
     .ciudad-bank img {
@@ -1189,7 +1519,6 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
         gap: 80px;
     }
 
@@ -1288,7 +1617,6 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
         gap: 80px;
         padding-top: 25px;
     }
