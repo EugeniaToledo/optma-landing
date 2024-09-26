@@ -1041,6 +1041,12 @@ footer {
         font-size: 1.5rem;
     }
 
+    .requirements-firstcards {
+        flex-wrap: nowrap;
+        padding: 30px;
+        gap: 30px;
+    }
+
     .requirements-firstcards .card {
         width: 240px;
         height: 240px;
@@ -1061,6 +1067,12 @@ footer {
 
     .requirements-firstcards .card .card-box .requirements-content h4 {
         margin-bottom: 3.2rem;
+    }
+
+    .requirements-secondcards {
+        flex-wrap: nowrap;
+        padding: 30px;
+        gap: 30px;
     }
 
     .requirements-secondcards .card {
@@ -1462,7 +1474,7 @@ footer {
     }
 
     .goals-bckg h3{
-        font-size: 3.8rem;
+        font-size: 3.6rem;
         font-weight: 700;
         padding-top: 80px;
     }
@@ -1518,7 +1530,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 80px;
+        gap: 50px;
     }
 
 
@@ -1595,7 +1607,7 @@ footer {
 
     .requirements-firstcards .card .card-box .requirements-content{
         position: absolute;
-        top: 70px;
+        top: 85px;
         padding: 20px;
         color: #ced4da;
     }
@@ -1616,7 +1628,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 80px;
+        gap: 50px;
         padding-top: 25px;
     }
 
@@ -1693,7 +1705,7 @@ footer {
 
     .requirements-secondcards .card .card-box .requirements-content{
         position: absolute;
-        top: 70px;
+        top: 85px;
         padding: 20px;
         color: #ced4da;
     }
@@ -1764,7 +1776,7 @@ footer {
     .form-section-online form input{
         background-color: #000e28;
         border: 1px solid #ced4da;
-        padding: 3px 38px;
+        padding: 3px 15px;
         border-radius: 10px;
         color: #ced4da;
     }
@@ -1780,6 +1792,12 @@ footer {
         font-size: 1.5rem;
         border-radius: 30px;
         font-weight: 600;
+    }
+
+    .form-section-online form button:hover {
+        background-color: #8e9296;
+        border: 1px solid #949698;
+        transition: 1s;
     }
 
     .phrases {
